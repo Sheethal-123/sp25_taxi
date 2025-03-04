@@ -9,6 +9,7 @@ from src.inference import (
     get_model_predictions,
     load_model_from_registry,
 )
+import hopsworks
 
 # Get the current datetime64[us, Etc/UTC]
 # for number in range(22, 24 * 29):
