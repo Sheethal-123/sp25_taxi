@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 
 import pandas as pd
+import hopsworks
 
 import src.config as config
 from src.inference import (
