@@ -8,6 +8,7 @@ sys.path.append(parent_dir)
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import distutils
 
 from src.inference import fetch_hourly_rides, fetch_predictions
 
